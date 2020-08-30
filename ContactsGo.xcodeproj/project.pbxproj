@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1850BC3AAA1635492553D9D9 /* Pods_ContactsGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62045A2A6BB8E3A452E4E921 /* Pods_ContactsGoTests.framework */; };
+		612FBDAC24FAD06E00542569 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDAB24FAD06E00542569 /* ContactViewModel.swift */; };
+		612FBDAE24FAD08B00542569 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDAD24FAD08B00542569 /* ContactModel.swift */; };
+		612FBDB024FAD96400542569 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDAF24FAD96400542569 /* ContactTableViewCell.swift */; };
+		612FBDB224FAD97700542569 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612FBDB124FAD97700542569 /* ContactTableViewCell.xib */; };
+		612FBDB524FAFCFA00542569 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDB424FAFCFA00542569 /* Constants.swift */; };
+		612FBDBA24FC1F0F00542569 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDB924FC1F0F00542569 /* DetailsViewController.swift */; };
+		612FBDBC24FC230C00542569 /* InfoDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDBB24FC230C00542569 /* InfoDetailsTableViewCell.swift */; };
+		612FBDBE24FC232200542569 /* InfoDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612FBDBD24FC232200542569 /* InfoDetailsTableViewCell.xib */; };
+		612FBDC024FC388300542569 /* AddressDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDBF24FC388300542569 /* AddressDetailsTableViewCell.swift */; };
+		612FBDC224FC389300542569 /* AddressDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612FBDC124FC389300542569 /* AddressDetailsTableViewCell.xib */; };
+		612FBDC424FC482500542569 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDC324FC482500542569 /* ViewControllerTests.swift */; };
+		612FBDC624FC483600542569 /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612FBDC524FC483600542569 /* DetailsViewControllerTests.swift */; };
 		6150731024FA078B00F2AECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150730F24FA078B00F2AECE /* AppDelegate.swift */; };
 		6150731224FA078B00F2AECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150731124FA078B00F2AECE /* SceneDelegate.swift */; };
 		6150731424FA078B00F2AECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150731324FA078B00F2AECE /* ViewController.swift */; };
@@ -16,6 +29,13 @@
 		6150731F24FA078C00F2AECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6150731D24FA078C00F2AECE /* LaunchScreen.storyboard */; };
 		6150732A24FA078C00F2AECE /* ContactsGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150732924FA078C00F2AECE /* ContactsGoTests.swift */; };
 		6150733524FA078D00F2AECE /* ContactsGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150733424FA078D00F2AECE /* ContactsGoUITests.swift */; };
+		61F7FA3424FC513600594D6E /* ContactTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7FA3324FC513600594D6E /* ContactTableViewCellTests.swift */; };
+		61F7FA3724FC576D00594D6E /* InfoDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7FA3624FC576D00594D6E /* InfoDetailsTableViewCell.swift */; };
+		61F7FA3924FC598500594D6E /* AddressDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7FA3824FC598500594D6E /* AddressDetailsTableViewCell.swift */; };
+		61F7FA3B24FC60B500594D6E /* ContactModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7FA3A24FC60B500594D6E /* ContactModelTests.swift */; };
+		61F7FA3D24FC622000594D6E /* ContactViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F7FA3C24FC622000594D6E /* ContactViewModelTests.swift */; };
+		CA7C717FC1A0723005DA41AC /* Pods_ContactsGo_ContactsGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99DA899128CF510A989EC48 /* Pods_ContactsGo_ContactsGoUITests.framework */; };
+		EA3C6AE8E2DED82A96F067FF /* Pods_ContactsGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C48BE40A084F84EE84D9E07 /* Pods_ContactsGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D2F05B40EF5A483A5BD50E /* Pods-ContactsGo-ContactsGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGo-ContactsGoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ContactsGo-ContactsGoUITests/Pods-ContactsGo-ContactsGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		127B8D625AFE6DA6E2646990 /* Pods-ContactsGo-ContactsGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGo-ContactsGoUITests.release.xcconfig"; path = "Target Support Files/Pods-ContactsGo-ContactsGoUITests/Pods-ContactsGo-ContactsGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C48BE40A084F84EE84D9E07 /* Pods_ContactsGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B92BB30A8A0B734693AEA6B /* Pods-ContactsGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGo.release.xcconfig"; path = "Target Support Files/Pods-ContactsGo/Pods-ContactsGo.release.xcconfig"; sourceTree = "<group>"; };
+		612FBDAB24FAD06E00542569 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		612FBDAD24FAD08B00542569 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		612FBDAF24FAD96400542569 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		612FBDB124FAD97700542569 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		612FBDB424FAFCFA00542569 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		612FBDB924FC1F0F00542569 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		612FBDBB24FC230C00542569 /* InfoDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		612FBDBD24FC232200542569 /* InfoDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		612FBDBF24FC388300542569 /* AddressDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		612FBDC124FC389300542569 /* AddressDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		612FBDC324FC482500542569 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		612FBDC524FC483600542569 /* DetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTests.swift; sourceTree = "<group>"; };
 		6150730C24FA078B00F2AECE /* ContactsGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6150730F24FA078B00F2AECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6150731124FA078B00F2AECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +87,16 @@
 		6150733024FA078D00F2AECE /* ContactsGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6150733424FA078D00F2AECE /* ContactsGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsGoUITests.swift; sourceTree = "<group>"; };
 		6150733624FA078D00F2AECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F7FA3324FC513600594D6E /* ContactTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCellTests.swift; sourceTree = "<group>"; };
+		61F7FA3624FC576D00594D6E /* InfoDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		61F7FA3824FC598500594D6E /* AddressDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		61F7FA3A24FC60B500594D6E /* ContactModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModelTests.swift; sourceTree = "<group>"; };
+		61F7FA3C24FC622000594D6E /* ContactViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModelTests.swift; sourceTree = "<group>"; };
+		62045A2A6BB8E3A452E4E921 /* Pods_ContactsGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBFB42F9A98063E73C1B887 /* Pods-ContactsGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGo.debug.xcconfig"; path = "Target Support Files/Pods-ContactsGo/Pods-ContactsGo.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCDF7FE5F87B798F3B232C5 /* Pods-ContactsGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactsGoTests/Pods-ContactsGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6ECBC542C6E4D87E2934AC7 /* Pods-ContactsGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoTests.release.xcconfig"; path = "Target Support Files/Pods-ContactsGoTests/Pods-ContactsGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E99DA899128CF510A989EC48 /* Pods_ContactsGo_ContactsGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGo_ContactsGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C6AE8E2DED82A96F067FF /* Pods_ContactsGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1850BC3AAA1635492553D9D9 /* Pods_ContactsGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7C717FC1A0723005DA41AC /* Pods_ContactsGo_ContactsGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5A4F0549640DEFC4010797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C48BE40A084F84EE84D9E07 /* Pods_ContactsGo.framework */,
+				E99DA899128CF510A989EC48 /* Pods_ContactsGo_ContactsGoUITests.framework */,
+				62045A2A6BB8E3A452E4E921 /* Pods_ContactsGoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612FBDA724FAA04100542569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				612FBDAD24FAD08B00542569 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		612FBDA824FAA04800542569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				612FBDAF24FAD96400542569 /* ContactTableViewCell.swift */,
+				612FBDB124FAD97700542569 /* ContactTableViewCell.xib */,
+				612FBDBB24FC230C00542569 /* InfoDetailsTableViewCell.swift */,
+				612FBDBD24FC232200542569 /* InfoDetailsTableViewCell.xib */,
+				612FBDBF24FC388300542569 /* AddressDetailsTableViewCell.swift */,
+				612FBDC124FC389300542569 /* AddressDetailsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		612FBDA924FAA04E00542569 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				612FBDAB24FAD06E00542569 /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		612FBDB324FAFCEA00542569 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				612FBDB424FAFCFA00542569 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		6150730324FA078B00F2AECE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,8 @@
 				6150732824FA078C00F2AECE /* ContactsGoTests */,
 				6150733324FA078D00F2AECE /* ContactsGoUITests */,
 				6150730D24FA078B00F2AECE /* Products */,
+				DB6AA7C0F9794A154E59AB4E /* Pods */,
+				2A5A4F0549640DEFC4010797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +199,14 @@
 		6150730E24FA078B00F2AECE /* ContactsGo */ = {
 			isa = PBXGroup;
 			children = (
+				612FBDB324FAFCEA00542569 /* Helpers */,
+				612FBDA924FAA04E00542569 /* ViewModel */,
+				612FBDA824FAA04800542569 /* View */,
+				612FBDA724FAA04100542569 /* Model */,
 				6150730F24FA078B00F2AECE /* AppDelegate.swift */,
 				6150731124FA078B00F2AECE /* SceneDelegate.swift */,
 				6150731324FA078B00F2AECE /* ViewController.swift */,
+				612FBDB924FC1F0F00542569 /* DetailsViewController.swift */,
 				6150731524FA078B00F2AECE /* Main.storyboard */,
 				6150731B24FA078C00F2AECE /* Assets.xcassets */,
 				6150731D24FA078C00F2AECE /* LaunchScreen.storyboard */,
@@ -118,6 +221,13 @@
 			children = (
 				6150732924FA078C00F2AECE /* ContactsGoTests.swift */,
 				6150732B24FA078C00F2AECE /* Info.plist */,
+				61F7FA3A24FC60B500594D6E /* ContactModelTests.swift */,
+				61F7FA3C24FC622000594D6E /* ContactViewModelTests.swift */,
+				612FBDC324FC482500542569 /* ViewControllerTests.swift */,
+				612FBDC524FC483600542569 /* DetailsViewControllerTests.swift */,
+				61F7FA3324FC513600594D6E /* ContactTableViewCellTests.swift */,
+				61F7FA3624FC576D00594D6E /* InfoDetailsTableViewCell.swift */,
+				61F7FA3824FC598500594D6E /* AddressDetailsTableViewCell.swift */,
 			);
 			path = ContactsGoTests;
 			sourceTree = "<group>";
@@ -131,6 +241,19 @@
 			path = ContactsGoUITests;
 			sourceTree = "<group>";
 		};
+		DB6AA7C0F9794A154E59AB4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EBFB42F9A98063E73C1B887 /* Pods-ContactsGo.debug.xcconfig */,
+				4B92BB30A8A0B734693AEA6B /* Pods-ContactsGo.release.xcconfig */,
+				03D2F05B40EF5A483A5BD50E /* Pods-ContactsGo-ContactsGoUITests.debug.xcconfig */,
+				127B8D625AFE6DA6E2646990 /* Pods-ContactsGo-ContactsGoUITests.release.xcconfig */,
+				8CCDF7FE5F87B798F3B232C5 /* Pods-ContactsGoTests.debug.xcconfig */,
+				E6ECBC542C6E4D87E2934AC7 /* Pods-ContactsGoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6150733924FA078D00F2AECE /* Build configuration list for PBXNativeTarget "ContactsGo" */;
 			buildPhases = (
+				73F118D2BA0FC4B82EBAF5B9 /* [CP] Check Pods Manifest.lock */,
 				6150730824FA078B00F2AECE /* Sources */,
 				6150730924FA078B00F2AECE /* Frameworks */,
 				6150730A24FA078B00F2AECE /* Resources */,
+				E65C8830E7BE91125663B93A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6150733C24FA078D00F2AECE /* Build configuration list for PBXNativeTarget "ContactsGoTests" */;
 			buildPhases = (
+				1399B94F963FB3035965FA55 /* [CP] Check Pods Manifest.lock */,
 				6150732124FA078C00F2AECE /* Sources */,
 				6150732224FA078C00F2AECE /* Frameworks */,
 				6150732324FA078C00F2AECE /* Resources */,
@@ -173,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6150733F24FA078D00F2AECE /* Build configuration list for PBXNativeTarget "ContactsGoUITests" */;
 			buildPhases = (
+				F13DC766A49CDB567C732D44 /* [CP] Check Pods Manifest.lock */,
 				6150732C24FA078D00F2AECE /* Sources */,
 				6150732D24FA078D00F2AECE /* Frameworks */,
 				6150732E24FA078D00F2AECE /* Resources */,
+				CCD7F1F9DA555678EB8E2B9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +363,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612FBDB224FAD97700542569 /* ContactTableViewCell.xib in Resources */,
+				612FBDC224FC389300542569 /* AddressDetailsTableViewCell.xib in Resources */,
+				612FBDBE24FC232200542569 /* InfoDetailsTableViewCell.xib in Resources */,
 				6150731F24FA078C00F2AECE /* LaunchScreen.storyboard in Resources */,
 				6150731C24FA078C00F2AECE /* Assets.xcassets in Resources */,
 				6150731724FA078B00F2AECE /* Main.storyboard in Resources */,
@@ -257,6 +388,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1399B94F963FB3035965FA55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F118D2BA0FC4B82EBAF5B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD7F1F9DA555678EB8E2B9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsGo-ContactsGoUITests/Pods-ContactsGo-ContactsGoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsGo-ContactsGoUITests/Pods-ContactsGo-ContactsGoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactsGo-ContactsGoUITests/Pods-ContactsGo-ContactsGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65C8830E7BE91125663B93A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsGo/Pods-ContactsGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsGo/Pods-ContactsGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactsGo/Pods-ContactsGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13DC766A49CDB567C732D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsGo-ContactsGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6150730824FA078B00F2AECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,8 +498,15 @@
 			files = (
 				6150731A24FA078B00F2AECE /* ContactsGo.xcdatamodeld in Sources */,
 				6150731424FA078B00F2AECE /* ViewController.swift in Sources */,
+				612FBDAE24FAD08B00542569 /* ContactModel.swift in Sources */,
+				612FBDAC24FAD06E00542569 /* ContactViewModel.swift in Sources */,
+				612FBDC024FC388300542569 /* AddressDetailsTableViewCell.swift in Sources */,
+				612FBDB024FAD96400542569 /* ContactTableViewCell.swift in Sources */,
 				6150731024FA078B00F2AECE /* AppDelegate.swift in Sources */,
 				6150731224FA078B00F2AECE /* SceneDelegate.swift in Sources */,
+				612FBDBC24FC230C00542569 /* InfoDetailsTableViewCell.swift in Sources */,
+				612FBDB524FAFCFA00542569 /* Constants.swift in Sources */,
+				612FBDBA24FC1F0F00542569 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +514,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F7FA3724FC576D00594D6E /* InfoDetailsTableViewCell.swift in Sources */,
+				61F7FA3D24FC622000594D6E /* ContactViewModelTests.swift in Sources */,
+				61F7FA3424FC513600594D6E /* ContactTableViewCellTests.swift in Sources */,
+				612FBDC624FC483600542569 /* DetailsViewControllerTests.swift in Sources */,
+				612FBDC424FC482500542569 /* ViewControllerTests.swift in Sources */,
 				6150732A24FA078C00F2AECE /* ContactsGoTests.swift in Sources */,
+				61F7FA3924FC598500594D6E /* AddressDetailsTableViewCell.swift in Sources */,
+				61F7FA3B24FC60B500594D6E /* ContactModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +684,7 @@
 		};
 		6150733A24FA078D00F2AECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBFB42F9A98063E73C1B887 /* Pods-ContactsGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +703,7 @@
 		};
 		6150733B24FA078D00F2AECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B92BB30A8A0B734693AEA6B /* Pods-ContactsGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +722,7 @@
 		};
 		6150733D24FA078D00F2AECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCDF7FE5F87B798F3B232C5 /* Pods-ContactsGoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +745,7 @@
 		};
 		6150733E24FA078D00F2AECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ECBC542C6E4D87E2934AC7 /* Pods-ContactsGoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +768,7 @@
 		};
 		6150734024FA078D00F2AECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D2F05B40EF5A483A5BD50E /* Pods-ContactsGo-ContactsGoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +789,7 @@
 		};
 		6150734124FA078D00F2AECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127B8D625AFE6DA6E2646990 /* Pods-ContactsGo-ContactsGoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

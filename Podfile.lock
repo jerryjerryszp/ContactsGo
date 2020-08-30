@@ -1,0 +1,20 @@
+PODS:
+  - JGProgressHUD (2.1)
+  - LetterAvatarKit (1.2.3)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - LetterAvatarKit (= 1.2.3)
+
+SPEC REPOS:
+  trunk:
+    - JGProgressHUD
+    - LetterAvatarKit
+
+SPEC CHECKSUMS:
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  LetterAvatarKit: f1c77efaae125a6f39e15210847eeefed57ad204
+
+PODFILE CHECKSUM: 0c73afd8897a82c8deea0a89fff8624e27efcd48
+
+COCOAPODS: 1.9.3

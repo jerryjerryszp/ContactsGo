@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="U9u-9j-u7h" customClass="AddressDetailsTableViewCell" customModule="ContactsGo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U9u-9j-u7h" id="4Aj-zk-Csk">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3tS-nP-b29">
+                        <rect key="frame" x="12" y="4" width="390" height="104"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPP-Qe-qzH">
+                                <rect key="frame" x="8" y="8" width="45" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="Ijp-pS-aVS"/>
+                                    <constraint firstAttribute="width" constant="45" id="QzL-KX-qnA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1D-YV-Rxa">
+                                <rect key="frame" x="8" y="30" width="150" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="LlH-aR-LRh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.039215686270000001" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hAw-sJ-ror">
+                                <rect key="frame" x="178" y="8" width="204" height="88"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.96078431369999995" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hAw-sJ-ror" firstAttribute="top" secondItem="3tS-nP-b29" secondAttribute="top" constant="8" id="4Xo-zU-z0K"/>
+                            <constraint firstAttribute="bottom" secondItem="q1D-YV-Rxa" secondAttribute="bottom" constant="8" id="AMY-4a-h6o"/>
+                            <constraint firstItem="q1D-YV-Rxa" firstAttribute="leading" secondItem="3tS-nP-b29" secondAttribute="leading" constant="8" id="WKZ-fV-zFE"/>
+                            <constraint firstItem="jPP-Qe-qzH" firstAttribute="leading" secondItem="3tS-nP-b29" secondAttribute="leading" constant="8" id="WbV-ez-gA9"/>
+                            <constraint firstItem="q1D-YV-Rxa" firstAttribute="top" secondItem="jPP-Qe-qzH" secondAttribute="bottom" constant="8" id="Wjg-oE-doh"/>
+                            <constraint firstItem="jPP-Qe-qzH" firstAttribute="top" secondItem="3tS-nP-b29" secondAttribute="top" constant="8" id="YZR-pV-KDa"/>
+                            <constraint firstItem="hAw-sJ-ror" firstAttribute="leading" secondItem="q1D-YV-Rxa" secondAttribute="trailing" constant="20" id="c0K-ur-vne"/>
+                            <constraint firstAttribute="height" constant="104" id="q8Z-UD-kMM"/>
+                            <constraint firstAttribute="bottom" secondItem="hAw-sJ-ror" secondAttribute="bottom" constant="8" id="v5A-rY-oFy"/>
+                            <constraint firstAttribute="trailing" secondItem="hAw-sJ-ror" secondAttribute="trailing" constant="8" id="yh5-5x-8ZX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3tS-nP-b29" firstAttribute="top" secondItem="4Aj-zk-Csk" secondAttribute="top" constant="4" id="7Bw-oZ-SSa"/>
+                    <constraint firstAttribute="trailing" secondItem="3tS-nP-b29" secondAttribute="trailing" constant="12" id="MIG-iT-y7k"/>
+                    <constraint firstAttribute="bottom" secondItem="3tS-nP-b29" secondAttribute="bottom" constant="12" id="dWH-gM-E3S"/>
+                    <constraint firstItem="3tS-nP-b29" firstAttribute="leading" secondItem="4Aj-zk-Csk" secondAttribute="leading" constant="12" id="xGR-wb-6fM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressContainerView" destination="3tS-nP-b29" id="t9r-xO-iZl"/>
+                <outlet property="addressLabel" destination="q1D-YV-Rxa" id="sER-6L-rkn"/>
+                <outlet property="mapView" destination="hAw-sJ-ror" id="24g-xC-YMN"/>
+            </connections>
+            <point key="canvasLocation" x="111.59420289855073" y="-48.214285714285715"/>
+        </tableViewCell>
+    </objects>
+</document>

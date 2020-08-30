@@ -1,0 +1,17 @@
+# Ignore Mac DS_Store files
+*.DS_Store
+.DS_Store
+
+# Xcode
+#
+build/
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+Pods/
